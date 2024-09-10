@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+     <meta charset="utf-8">
+     <title>Index Page</title>
+     <link rel="stylesheet" href="Stylesheet.css">
+   </head>
+   <body class="page-home">
+    
+     <div class="main">
+       <h1>Icarus</h1>
+       <hr>
+       <p id="tmbg_quote">"The boy who dared to fly too close to the sun..."</p>
+       <img src="Icarus.jpg" alt="main Icarus">
+     </div>
+     <select id="pageSelector">
+      <option value="">Select a page</option>
+      <option value="home.html">Home</option>
+      <option value="Diary.html">Diary</option>
+      <option value="Tinder.html">Tinder</option>
+    </select>
+  
+    <script>
+      document.getElementById('pageSelector').addEventListener('change', function() {
+        var selectedPage = this.value;
+        if (selectedPage) {
+          window.location.href = selectedPage;
+        }
+      });
+    </script>
+      <p id="Description">The Story of Icarus<br>
+        <p> In ancient Greek mythology, Icarus is the son of Daedalus, a master craftsman and inventor. The tale of Icarus is a poignant story about ambition, creativity, and the consequences of hubris.
+        The Labyrinth and the Escape <br>
+        <p> Daedalus, renowned for his incredible skills, was imprisoned along with his son Icarus by King Minos of Crete. The king, fearing Daedalus's talents, had confined him and Icarus in a labyrinthine prison from which escape seemed impossible. Determined to escape, Daedalus devised a brilliant plan using his mastery of engineering and craftsmanship.
+        Daedalus crafted two sets of wings using feathers and wax, one for himself and one for Icarus. Before their flight, Daedalus warned his son of the dangers of their daring escape. He instructed Icarus to maintain a moderate altitude: not too high, to avoid the sun melting the wax, and not too low, to prevent the sea dampening the feathers.
+        </p> <p>Flight and the Fall</p>
+        <p> As they soared into the sky, the thrill of flight overwhelmed Icarus. The exhilaration of defying gravity and the vast expanse of the sky seduced him. Ignoring his father’s warnings, Icarus flew higher and higher, drawn irresistibly towards the sun.
+        The heat from the sun began to soften the wax holding the feathers together. One by one, the feathers started to come loose, and Icarus’s wings began to disintegrate. As the wings fell apart, Icarus plummeted into the sea, where he drowned. The sea that claimed him became known as the Icarian Sea, a somber reminder of his tragic end.
+      </p><p>The Aftermath </p>
+        <p> Heartbroken by the loss of his son, Daedalus continued his flight and eventually reached safety. The story of Icarus serves as a powerful metaphor for the perils of overambition and the importance of heeding wise counsel.
+        The myth of Icarus has resonated through the ages as a tale of human striving and the consequences of reaching too far, too fast. It symbolizes the delicate balance between ambition and prudence, and the timeless human struggle to overcome limitations while avoiding the pitfalls of hubris."</p>
+        
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    font-family: Verdana;
+}
+
+/* Styles for Home page */
+.page-home {
+    background-color: lightblue;
+}
+
+.page-home h1 {
+    color: white;
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+/* Styles for Tinder page */
+.page-tinder {
+    background-color: #2e2e2e; /* Set background color for the body */
+}
+
+.page-tinder .main {
+    color: #ffffff; /* Set text color for the main content */
+}
+
+.page-tinder .quote {
+    color: #ffffff; /* Set text color for the quotes */
+}
+
+.page-about h1 {
+    color: #ffffff;
+    text-align: left;
+}
+
+
+/* Styles for Diary page */
+.page-Diary {
+    background-color: #2e2e2e; /* Set background color for the page */
+    color: white; /* Set text color for better visibility on dark background */
+}
+
+/* Styles for Diary page heading */
+.page-Diary h1 {
+    text-align: center; /* Center-align heading */
+    font-family: Times New Roman;
+
+}
+
+/* Table styling common to all pages */
+table {
+    margin: 0 auto; /* Center-align table */
+    border-collapse: collapse; /* Ensure table borders are collapsed */
+}
+
+th, td {
+    border: 1px solid white; /* Add border to table cells */
+    padding: 10px; /* Add padding inside table cells */
+    text-align: left; /* Align text to the left inside table cells */
+}
+
+/* Style for links */
+a {
+    color: white; /* Set link color for visibility on dark background */
+    text-decoration: none; /* Remove underline from links */
+}
+#Falling-Icarus {
+    display: block; /* Ensures that the margin settings apply correctly */
+    margin: 20px auto; /* Center-aligns the image and adds space above and below */
+    max-width: 100%; /* Ensures the image does not overflow the container */
+    height: auto; /* Maintains the aspect ratio of the image */
+    width: 300px; /* Sets the width of the image */
+    height: 200px; /* Sets the height of the image */
+    object-fit: cover; /* Ensures the image covers the dimensions set without distortion */
+}
+
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}

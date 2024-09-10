@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+</head>
+<body class="page-tinder">
+    <a href="Index.html">Back Home</a>
+    <div class="main">
+        
+        <h1>Icarus 22</h1>
+        <img src="Rizzy-Icarus.jpeg" alt="Description" width="358" height="358">
+        <hr>
+        <p class="quote"> <!-- Use class instead of id for multiple elements -->
+            "About Me <br>
+            ✈️ Dreamer & Adventurer<br>
+            🌞 Chasing the sun, one flight at a time <br>
+            🎨 Artistic soul with a flair for the dramatic<br>
+            🗺️ Always reaching for the stars (sometimes too close)<br>
+            🔥 Passionate about pushing limits and living life to the fullest
+            <br><br>
+            Swipe right if you’re ready for a sky-high adventure, or just want to chat about the perils of wax wings! 🚀
+        </p>
+        <hr>
+        <p>Essentials</p>
+        <ul class="quote"> <!-- Use class instead of id for multiple elements -->
+            <li>📍 1 mile away</li>
+            <li>💼 Student</li>
+            <li>🎓 Hustlers University</li>
+            <li>💭 They/Them</li>
+            <li>🧍 Non-Binary</li>
+        </ul>
+        <hr>
+        <p>Looking for </p>
+        <ul class="quote"> <!-- Use class instead of id for multiple elements -->
+            <li>Short-term fun</li>
+        </ul>
+        <hr>
+        <p>Open to</p>
+        <ul class="quote"> <!-- Use class instead of id for multiple elements -->
+            
+            <li>Polyamory</li>
+        </ul>
+    </div>
+    <script>
+        document.getElementById('pageSelector').addEventListener('change', function() {
+            var selectedPage = this.value;
+            if (selectedPage) {
+                window.location.href = selectedPage;
+            }
+        });
+    </script>
+</body>
+</html>

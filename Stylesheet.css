@@ -5,7 +5,7 @@ body {
 /* Styles for Home page */
 .page-home {
     background-color: lightblue;
-}
+} 
 
 .page-home h1 {
     color: white;
@@ -23,7 +23,7 @@ body {
 }
 
 .page-tinder .quote {
-    color: #ffffff; /* Set text color for the quotes */
+    color: #ffffff; /* Set text color for the quotes */`
 }
 
 .page-about h1 {
